@@ -24,7 +24,7 @@ const ProductsList = () => {
   return (
     <div className="flex flex-col max-w-screen-xl justify-center items-center mx-auto mt-24">
       <div className="relative rounded-xl bg-zinc-900 w-full min-h-[600px]">
-        <div className="px-8 flex items-center gap-8 mt-8">
+        <div className="px-8 flex flex-col md:flex-row items-center gap-8 mt-8">
           <h1>Products List</h1>
           <SearchInput />
         </div>
@@ -64,7 +64,7 @@ const ProductsList = () => {
           )}
         </div>
       </div>
-      <div className="flex justify-between items-center w-full mt-8">
+      <div className="px-4 xl:px-0 flex flex-col-reverse gap-8 snm:gap-0 sm:flex-row justify-between items-center w-full mt-8">
         <p className="p-4 bg-[#1a1a1a] rounded-xl">
           Total products: <span className="font-bold text-xl">{totalProducts}</span>
         </p>
