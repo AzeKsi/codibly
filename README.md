@@ -11,5 +11,3 @@ To run service locally you have to perform following steps:
 2. Install packages `npm install`
 3. Run `npm start`
 4. Application is available on `http://localhost:3000` in your browser
-
-There is also live version under this url: `https://dnd-adriank.netlify.app/`
