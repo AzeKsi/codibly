@@ -1,0 +1,22 @@
+@layer components {
+  .modal-overlay {
+    @apply h-full w-full fixed left-0 top-0 z-50 flex items-center justify-center;
+    background: rgba(26, 27, 29, 0.9);
+  }
+
+  .modal-dialog {
+    @apply relative w-full pointer-events-none bg-transparent px-4;
+  }
+
+  .modal-content {
+    @apply relative flex flex-col pointer-events-auto w-full max-w-md mx-auto md:my-8 bg-zinc-800 rounded-lg shadow-lg;
+  }
+
+  .modal-body {
+    @apply relative flex-1 w-full overflow-y-hidden md:min-h-[400px];
+  }
+
+  .modal-close-btn {
+    @apply h-14 w-14 absolute right-0 z-10 flex items-center justify-center ml-auto bg-transparent;
+  }
+}
